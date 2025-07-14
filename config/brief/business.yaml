@@ -1,0 +1,8 @@
+# ビジネス・企業メディア用プリセット
+# フォーマルな文体でビジネスパーソン向けの記事を作成
+
+target_length: 5000
+target_audience: "ビジネスパーソン全般"
+tone: "formal"
+style_guide: "business"
+purpose: "読者に新しい知識を提供する"

@@ -1,0 +1,82 @@
+name: "casual"
+description: "親しみやすく読みやすいカジュアルなスタイル"
+created_at: "2025-07-01"
+# 参照ファイル（分析結果は下記の特性に反映済み。執筆時はこれらのファイルを読み込まないこと）
+source_files:
+  - "ブログやSNSの一般的な慣例に基づく"
+
+# 文体特性
+style_characteristics:
+  sentence_ending: "desu-masu"  # です・ます調で統一（親しみやすさを保つ）
+  sentence_length: "short"      # 30-40文字程度（読みやすさ重視）
+  paragraph_length: "short"     # 2-3文で1段落（軽快なリズム）
+  formality_level: 2            # カジュアル（5段階中2）
+
+# 語彙特性
+vocabulary:
+  complexity: "simple"
+  technical_terms: "minimal"
+  katakana_usage: "liberal"
+  preferred_words:
+    - instead_of: "実施する"
+      use: "やってみる"
+    - instead_of: "非常に"
+      use: "とても"
+    - instead_of: "したがって"
+      use: "だから"
+    - instead_of: "検討する"
+      use: "考える"
+
+# 構成パターン
+structure_patterns:
+  opening_style: "読者の関心を引く身近な話題から始める"
+  development_style: "体験談や具体例を交えて親しみやすく説明"
+  closing_style: "読者への共感や応援メッセージで締める"
+  transition_phrases:
+    - "ところで、"
+    - "そうそう、"
+    - "ちなみに、"
+    - "実は、"
+    - "そんなわけで、"
+
+# トーンマーカー
+tone_markers:
+  emotional_expressions: true    # 感情表現を積極的に使用
+  personal_pronouns: true       # 一人称を自然に使用
+  reader_engagement: "direct"   # 直接的な読者への語りかけ
+  humor_level: 2               # 軽いユーモアを適度に使用
+
+# 具体的なルール
+style_rules:
+  - "数字は読みやすさを優先し、漢数字と算用数字を適切に使い分ける"
+  - "専門用語は身近な例えで説明し、読者の理解を助ける"
+  - "1文は40文字以内を目安とし、リズム感を重視する"
+  - "段落は短めにし、読みやすさを優先する"
+  - "絵文字や記号は使わないが、感嘆符は適度に使用する"
+  - "読者との距離感を縮める表現を心がける"
+  - "体験談や具体例を積極的に盛り込む"
+
+# 例文ペア
+examples:
+  - category: "導入文"
+    before: "近年、多くの企業においてDX（デジタルトランスフォーメーション）の推進が重要な経営課題となっています。"
+    after: "最近、よく「DX」って言葉を耳にしませんか？会社でもよく話題になりますよね。"
+  
+  - category: "データ提示"
+    before: "売上高は前年同期比で25％増加し、好調な推移を示しています。"
+    after: "売上がなんと25％も伸びているんです！これってすごいことですよね。"
+  
+  - category: "提案"
+    before: "以上の分析結果を踏まえ、次の施策の実施を提案いたします。"
+    after: "そこで、こんな方法を試してみるのはどうでしょうか？"
+
+# 禁止表現
+prohibited_expressions:
+  - phrase: "でも、ちょっと待ってほしい"
+    reason: "頻出しすぎる紋切り型の表現"
+
+# 注意事項
+cautions:
+  - "過度にくだけすぎないよう注意（タメ口は避ける）"
+  - "専門用語を多用しすぎない"
+  - "感情表現は適度に留め、過剰にならないよう注意"

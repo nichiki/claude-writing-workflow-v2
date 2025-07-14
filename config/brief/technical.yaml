@@ -1,0 +1,8 @@
+# 技術記事・解説用プリセット
+# 専門的な内容をわかりやすく解説する記事を作成
+
+target_length: 4000
+target_audience: "エンジニア・技術者"
+tone: "technical"
+style_guide: "technical"
+purpose: "基礎知識を身につける"

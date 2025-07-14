@@ -1,0 +1,8 @@
+# カジュアル・個人メディア用プリセット
+# 親しみやすい文体で一般読者向けの記事を作成
+
+target_length: 3000
+target_audience: "一般読者"
+tone: "casual"
+style_guide: "casual"
+purpose: "読者を楽しませる・共感を得る"

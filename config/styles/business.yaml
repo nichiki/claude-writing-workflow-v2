@@ -1,0 +1,77 @@
+name: "business"
+description: "ビジネス文書向けのフォーマルなスタイル"
+created_at: "2025-07-01"
+# 参照ファイル（分析結果は下記の特性に反映済み。執筆時はこれらのファイルを読み込まないこと）
+source_files:
+  - "ビジネス文書の一般的な慣例に基づく"
+
+# 文体特性
+style_characteristics:
+  sentence_ending: "desu-masu"  # です・ます調で統一
+  sentence_length: "medium"      # 40-60文字程度
+  paragraph_length: "medium"     # 3-5文で1段落
+  formality_level: 4            # フォーマル（5段階中4）
+
+# 語彙特性
+vocabulary:
+  complexity: "standard"
+  technical_terms: "moderate"
+  katakana_usage: "moderate"
+  preferred_words:
+    - instead_of: "やる"
+      use: "実施する"
+    - instead_of: "すごく"
+      use: "非常に"
+    - instead_of: "だから"
+      use: "したがって"
+    - instead_of: "でも"
+      use: "しかし"
+
+# 構成パターン
+structure_patterns:
+  opening_style: "現状認識や問題提起から始める"
+  development_style: "論理的な展開、データや事例で裏付け"
+  closing_style: "要点整理と今後の展望で締める"
+  transition_phrases:
+    - "また、"
+    - "一方で、"
+    - "さらに、"
+    - "このように、"
+    - "以上のことから、"
+
+# トーンマーカー
+tone_markers:
+  emotional_expressions: false   # 感情表現は控えめ
+  personal_pronouns: false      # 一人称は避ける
+  reader_engagement: "indirect" # 間接的な読者への語りかけ
+  humor_level: 0               # ユーモアは使用しない
+
+# 具体的なルール
+style_rules:
+  - "数字は半角算用数字を使用（例：2024年、50％）"
+  - "専門用語は初出時に説明または注釈を付ける"
+  - "1文は60文字以内を目安とし、複雑な内容は分割する"
+  - "段落は3-5文でまとめ、1つの論点に集中する"
+  - "箇条書きを効果的に使用し、視認性を高める"
+  - "受動態より能動態を優先する"
+  - "結論を先に述べ、その後に理由を展開する"
+
+# 例文ペア
+examples:
+  - category: "導入文"
+    before: "最近、会社でDXが話題になってますよね。"
+    after: "近年、多くの企業においてDX（デジタルトランスフォーメーション）の推進が重要な経営課題となっています。"
+  
+  - category: "データ提示"
+    before: "売上がすごく伸びています。"
+    after: "売上高は前年同期比で25％増加し、好調な推移を示しています。"
+  
+  - category: "提案"
+    before: "この方法を試してみたらどうでしょうか？"
+    after: "以上の分析結果を踏まえ、次の施策の実施を提案いたします。"
+
+# 注意事項
+cautions:
+  - "話し言葉的な表現は避ける（〜じゃないですか、〜って感じ）"
+  - "曖昧な表現を避ける（たぶん、〜かもしれない）"
+  - "略語の使いすぎに注意（できるだけ正式名称を使用）"

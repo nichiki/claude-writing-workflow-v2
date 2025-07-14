@@ -1,0 +1,83 @@
+name: "technical"
+description: "技術者向けの正確で詳細な技術文書スタイル"
+created_at: "2025-07-01"
+# 参照ファイル（分析結果は下記の特性に反映済み。執筆時はこれらのファイルを読み込まないこと）
+source_files:
+  - "技術文書の一般的な慣例に基づく"
+
+# 文体特性
+style_characteristics:
+  sentence_ending: "desu-masu"  # です・ます調で統一（読みやすさ重視）
+  sentence_length: "medium"     # 40-60文字程度（情報密度を保つ）
+  paragraph_length: "medium"    # 3-4文で1段落（論理的構成）
+  formality_level: 3           # やや技術的（5段階中3）
+
+# 語彙特性
+vocabulary:
+  complexity: "high"
+  technical_terms: "extensive"
+  katakana_usage: "extensive"
+  preferred_words:
+    - instead_of: "やってみる"
+      use: "実装する"
+    - instead_of: "とても"
+      use: "非常に"
+    - instead_of: "だから"
+      use: "そのため"
+    - instead_of: "使う"
+      use: "利用する"
+
+# 構成パターン
+structure_patterns:
+  opening_style: "技術的背景や課題の明確化から始める"
+  development_style: "手順やコード例を具体的に示し、理論と実践を結ぶ"
+  closing_style: "まとめと次のステップ、参考リソースで締める"
+  transition_phrases:
+    - "次に、"
+    - "具体的には、"
+    - "ここで、"
+    - "結果として、"
+    - "最後に、"
+
+# トーンマーカー
+tone_markers:
+  emotional_expressions: false  # 感情表現は控えめ
+  personal_pronouns: false     # 一人称は最小限に
+  reader_engagement: "instructional" # 指導的な読者への語りかけ
+  humor_level: 0              # ユーモアは使用しない
+
+# 具体的なルール
+style_rules:
+  - "技術用語は正確に使用し、必要に応じて定義を明記する"
+  - "コード例は実行可能で、適切にフォーマットする"
+  - "手順は番号付きリストで明確に示す"
+  - "図表やコードブロックを効果的に活用する"
+  - "バージョン情報や環境依存の注意点を明記する"
+  - "エラーハンドリングやトラブルシューティングを含める"
+  - "実際の動作結果や出力例を示す"
+
+# 例文ペア
+examples:
+  - category: "導入文"
+    before: "最近、よく「API」って言葉を耳にしませんか？"
+    after: "API（Application Programming Interface）は、異なるソフトウェア間でデータをやり取りするための仕組みです。"
+  
+  - category: "手順説明"
+    before: "まず、ファイルを開いてください。"
+    after: "1. エディタでconfig.jsファイルを開きます。"
+  
+  - category: "結果説明"
+    before: "うまくいけば、画面に結果が表示されます。"
+    after: "実行が成功すると、コンソールに以下のような出力が表示されます："
+
+# 禁止表現
+prohibited_expressions:
+  - phrase: "でも、ちょっと待ってほしい"
+    reason: "頻出しすぎる紋切り型の表現"
+
+# 注意事項
+cautions:
+  - "専門用語の説明不足に注意（初心者にも配慮）"
+  - "コード例の動作確認を怠らない"
+  - "環境依存の情報は明確に区別する"
+  - "古い情報にならないよう最新性に注意する"

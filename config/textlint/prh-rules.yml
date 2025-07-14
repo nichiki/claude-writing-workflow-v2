@@ -1,0 +1,32 @@
+version: 1
+
+rules:
+  # ビジネス記事でよく使う表記（SmartHRプリセットにない項目）
+  - expected: コミュニケーション
+    patterns:
+      - コミニュケーション
+      - コミニケーション
+  
+  - expected: マインドセット
+    patterns:
+      - マインドセット
+      - mindset
+      - Mindset
+  
+  - expected: パラダイムシフト
+    patterns:
+      - パラダイム・シフト
+      - paradigm shift
+  
+  # AI/技術関連
+  - expected: AI
+    patterns:
+      - ai
+      - Ai
+      - ＡＩ
+  
+  - expected: Claude Code
+    patterns:
+      - claude code
+      - Claude code
+      - claude Code

@@ -1,0 +1,9 @@
+﻿series,title,target_length,target_audience,purpose,tone,style_guide,keywords,requirements,references,notes
+,AIの労働市場への影響,5000,ビジネスパーソン全般,読者に新しい知識を提供する,formal,business,AI・労働市場・仕事の未来,AIにより仕事はなくなるかに対する答え,,
+,個人ブログの始め方,3000,一般読者,読者を楽しませる・共感を得る,casual,casual,ブログ・執筆・副業,初心者でも始められる具体的な手順,,
+猫の可愛さ大全,猫の外見の魅力,3000,一般読者,読者を楽しませる・共感を得る,casual,casual,猫・可愛さ・癒し・ふわふわ,ふわふわな毛並みの描写を詳しく,,第1回：外見編
+猫の可愛さ大全,猫の仕草と表情,3000,一般読者,読者を楽しませる・共感を得る,casual,casual,猫・可愛さ・癒し・仕草,目や耳の動きを具体的に,,第2回：表情編
+猫の可愛さ大全,猫の行動パターン,3000,一般読者,読者を楽しませる・共感を得る,casual,casual,猫・可愛さ・癒し・行動,遊び方や寝姿の描写,,第3回：行動編
+初心者のためのPython,Pythonの基礎文法,4000,エンジニア・技術者,基礎知識を身につける,technical,technical,Python・プログラミング・初心者,実行可能なコード例を含める,https://python.org,第1回
+初心者のためのPython,データ型と変数,4000,エンジニア・技術者,基礎知識を身につける,technical,technical,Python・変数・データ型,わかりやすい図解を意識,,第2回
+初心者のためのPython,制御構造,4000,エンジニア・技術者,基礎知識を身につける,technical,technical,Python・if文・ループ,実践的な例題を含める,,第3回

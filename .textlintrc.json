@@ -1,0 +1,17 @@
+{
+  "rules": {
+    "preset-smarthr": true,
+    "prh": {
+      "rulePaths": ["./config/textlint/prh-rules.yml"]
+    },
+    "preset-ai-writing": true,
+    "no-duplicated-bunmatsu-hyougen": true
+  },
+  "rulesConfig": {
+    "preset-smarthr": {
+      "sentence-length": {
+        "max": 150
+      }
+    }
+  }
+}

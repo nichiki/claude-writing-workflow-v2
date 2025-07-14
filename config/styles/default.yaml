@@ -1,0 +1,81 @@
+name: "default"
+description: "標準的なバランスの取れたスタイル"
+created_at: "2025-07-01"
+# 参照ファイル（分析結果は下記の特性に反映済み。執筆時はこれらのファイルを読み込まないこと）
+source_files:
+  - "一般的な文書作成の慣例に基づく"
+
+# 文体特性
+style_characteristics:
+  sentence_ending: "desu-masu"  # です・ます調で統一
+  sentence_length: "medium"     # 40-50文字程度
+  paragraph_length: "medium"    # 3-4文で1段落
+  formality_level: 3           # 標準（5段階中3）
+
+# 語彙特性
+vocabulary:
+  complexity: "standard"
+  technical_terms: "moderate"
+  katakana_usage: "moderate"
+  preferred_words:
+    - instead_of: "やる"
+      use: "行う"
+    - instead_of: "すごく"
+      use: "とても"
+    - instead_of: "だから"
+      use: "そのため"
+    - instead_of: "でも"
+      use: "しかし"
+
+# 構成パターン
+structure_patterns:
+  opening_style: "背景説明から始める"
+  development_style: "論理的に段階を追って説明"
+  closing_style: "要点をまとめて締める"
+  transition_phrases:
+    - "また、"
+    - "一方、"
+    - "さらに、"
+    - "このように、"
+    - "以上から、"
+
+# トーンマーカー
+tone_markers:
+  emotional_expressions: false  # 感情表現は控えめ
+  personal_pronouns: false     # 一人称は最小限に
+  reader_engagement: "moderate" # 適度な読者への語りかけ
+  humor_level: 1              # 軽いユーモアを時々使用
+
+# 具体的なルール
+style_rules:
+  - "数字は文脈に応じて漢数字と算用数字を使い分ける"
+  - "専門用語は初出時に簡潔に説明する"
+  - "1文は50文字以内を目安とし、読みやすさを重視する"
+  - "段落は3-4文でまとめ、論理的なまとまりを意識する"
+  - "箇条書きを適切に使用し、情報を整理する"
+  - "読者にとって理解しやすい構成を心がける"
+
+# 例文ペア
+examples:
+  - category: "導入文"
+    before: "最近、よく聞く話ですが..."
+    after: "近年、多くの場面で見られるように..."
+  
+  - category: "説明文"
+    before: "これはすごく大事なことです。"
+    after: "これは非常に重要なポイントです。"
+  
+  - category: "結論"
+    before: "だから、こうすればいいと思います。"
+    after: "そのため、以下の方法が効果的と考えられます。"
+
+# 禁止表現
+prohibited_expressions:
+  - phrase: "でも、ちょっと待ってほしい"
+    reason: "頻出しすぎる紋切り型の表現"
+
+# 注意事項
+cautions:
+  - "過度にかしこまりすぎず、親しみやすさも保つ"
+  - "専門用語と一般的な表現のバランスを取る"
+  - "読者層を意識した適切な敬語レベルを維持する"
