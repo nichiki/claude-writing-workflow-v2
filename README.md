@@ -33,7 +33,7 @@ npm install
 ### 4. Claude Codeでプロジェクトを開く
 
 ```bash
-claude-code .
+claude
 ```
 
 ## 基本的な使い方

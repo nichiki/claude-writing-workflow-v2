@@ -86,6 +86,11 @@ additional_notes: |
 保存先: `projects/[プロジェクト名]/research.yaml`
 （単発記事・シリーズ記事ともにプロジェクト直下に保存）
 
+**重要な注意事項:**
+- リサーチ結果は必ず`projects/[プロジェクト名]/`内に保存すること
+- プロジェクトルートディレクトリ（/Users/ichiki/Desktop/claude-writing-workflow-v2/）に直接ファイルを作成しないこと
+- 一時的なメモやデータも必ずプロジェクトフォルダ内に保存すること
+
 # 実行後の状態
 - プロジェクト直下にresearch.yamlが保存される
 - articles.yamlの該当記事のstatusは"planning"のまま維持される

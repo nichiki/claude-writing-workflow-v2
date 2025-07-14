@@ -76,8 +76,8 @@ config/
 ```yaml
 # 単発記事の場合
 articles:
-  - id: "01_おっさんが若者に勝つためには"
-    title: "おっさんが若者に勝つためには"
+  - id: "01_AIとの協働で生産性を高める方法"
+    title: "AIとの協働で生産性を高める方法"
     target_length: 5000
     status: "completed" | "drafting" | "planning"
 
