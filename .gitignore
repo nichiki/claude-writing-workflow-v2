@@ -15,6 +15,12 @@ Thumbs.db
 *.swp
 *.swo
 
+# Local configuration files
+*.local.json
+*.local.yml
+*.local.yaml
+.claude/settings.local.json
+
 # OS generated files
 *.DS_Store
 .AppleDouble
