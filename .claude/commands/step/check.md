@@ -74,9 +74,11 @@ wc -m projects/[プロジェクト名]/articles/[記事ID]/draft.md
 
 Claude Codeが以下の手順でtextlintを実行します：
 
+**重要**: textlintの存在確認に`which textlint`は使用しないこと。npxでインストールされている場合があるため、直接`npx textlint`を実行して、エラーが出た場合のみスキップする。
+
 1. **自動修正の実行**
    - `npx textlint --fix projects/[プロジェクト名]/articles/[記事ID]/draft.md`
-   - textlintが存在しない場合はスキップ
+   - コマンド実行時にtextlintが見つからないエラーが出た場合のみスキップ
 
 2. **残存エラーの確認**
    - `npx textlint projects/[プロジェクト名]/articles/[記事ID]/draft.md`
